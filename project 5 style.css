@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+    color: #222;
+}
+
+header {
+    background: #0057b8;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+nav {
+    background: #003f88;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.formula {
+    background: #e8eef7;
+    padding: 15px;
+    border-left: 5px solid #0057b8;
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.calc-box {
+    background: #eef3fa;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.calc-box input {
+    width: 80px;
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #0057b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #003f88;
+}
+
+footer {
+    background: #003f88;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

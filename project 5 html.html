@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Equations & Linear Functions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Understanding Linear Equations & Linear Functions</h1>
+        <p class="subtitle">A beginner‑friendly interactive learning website</p>
+    </header>
+
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#equations">Linear Equations</a>
+        <a href="#functions">Linear Functions</a>
+        <a href="#practice">Practice</a>
+    </nav>
+
+    <section id="intro" class="section">
+        <h2>📘 What Are Linear Relationships?</h2>
+        <p>
+            Linear equations and linear functions describe relationships that form straight lines when graphed.
+            They appear everywhere — finance, physics, business, and everyday problem‑solving.
+        </p>
+    </section>
+
+    <section id="equations" class="section">
+        <h2>✏️ Linear Equations</h2>
+        <p>A linear equation is an equation whose graph is a straight line. It has the form:</p>
+
+        <div class="formula">ax + b = c</div>
+
+        <h3>Example</h3>
+        <p>Solve: <strong>2x + 6 = 14</strong></p>
+        <p>Steps:</p>
+        <ul>
+            <li>Subtract 6 from both sides → 2x = 8</li>
+            <li>Divide by 2 → x = 4</li>
+        </ul>
+    </section>
+
+    <section id="functions" class="section">
+        <h2>📈 Linear Functions</h2>
+        <p>A linear function describes how one quantity changes with another. It has the form:</p>
+
+        <div class="formula">f(x) = mx + b</div>
+
+        <ul>
+            <li><strong>m</strong> = slope (rate of change)</li>
+            <li><strong>b</strong> = y‑intercept (starting value)</li>
+        </ul>
+
+        <h3>Interactive Slope Calculator</h3>
+        <div class="calc-box">
+            <label>Enter two points:</label>
+            <input id="x1" type="number" placeholder="x₁">
+            <input id="y1" type="number" placeholder="y₁">
+            <input id="x2" type="number" placeholder="x₂">
+            <input id="y2" type="number" placeholder="y₂">
+            <button onclick="calculateSlope()">Calculate Slope</button>
+            <p id="slopeResult"></p>
+        </div>
+    </section>
+
+    <section id="practice" class="section">
+        <h2>📝 Practice Problem</h2>
+        <p>Solve for x: <strong>5x − 3 = 22</strong></p>
+
+        <input id="answer" type="number" placeholder="Your answer">
+        <button onclick="checkAnswer()">Check Answer</button>
+        <p id="feedback"></p>
+    </section>
+
+    <footer>
+        <p>Created using AI as part of Project 5</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
